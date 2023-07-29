@@ -1,5 +1,5 @@
-
 import './App.css';
+import "./Styles.css"
 import NavBar from './components/NavBar';
 import MainHero from "./components/Main";
 import AboutUs from './components/AboutUs';
@@ -9,9 +9,9 @@ function App() {
   return (
         <div>
           <NavBar />,
-       <MainHero />,
-       <AboutUs />,
-       <Footer />
+          <MainHero />,
+          <AboutUs />,
+          <Footer />
         </div>
        
 

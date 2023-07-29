@@ -1,0 +1,10 @@
+/*
+Landing page styling
+*/
+
+body{
+    font-family:'Inter', sans;
+    background-color: #ddab70;
+    box-sizing: 0;
+    margin:0;
+}
