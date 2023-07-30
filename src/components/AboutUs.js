@@ -1,6 +1,9 @@
+import AboutImage from "./imgs/coffee-beans.jpg"
 function AboutUs() {
   return (
-    <div>
+    <section className="about">
+    <div className="about-content">
+      <div className="about-textBox">
       <h2>About Us</h2>
       <p>
         A Programmer's Coffee Receipe Book! We've created the finest coffee
@@ -8,12 +11,18 @@ function AboutUs() {
         sessions. Join our caffeinated community and let the magic of coffee
         inspire your code. Cheers to code and coffee!{" "}
       </p>
+      </div>
+      </div>
+      <div className="about-image">
       <img
-        src="public/imgs/coffee-beans.jpg"
+        src={AboutImage}
         alt="Starbucks Coffee Beans"
-      ></img>
-      <button>Coffee & Code</button>
-    </div>
+       className="about-us-image"></img>
+       </div>
+       <div className="about-button">
+      <button className="coffee">Coffee & Code</button>
+      </div>
+    </section>
   );
 }
 
