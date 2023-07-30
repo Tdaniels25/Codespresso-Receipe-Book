@@ -12,10 +12,6 @@ import {
   faTwitter,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import NavBar from "./components/NavBar";
-import MainHero from "./components/Main";
-import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
 
 function LandingPage() {
   return (
