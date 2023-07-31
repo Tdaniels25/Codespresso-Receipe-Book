@@ -27,6 +27,9 @@ function LandingPage() {
         <Link to="/RecipeA">
           <p>RecipeA</p>
         </Link>
+        <Link to="/RecipeA">
+          <p>RecipeA</p>
+        </Link>
       </div>
       <div className="circle"></div>
       <header>

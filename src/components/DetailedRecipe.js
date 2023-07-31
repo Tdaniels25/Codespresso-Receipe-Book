@@ -4,6 +4,7 @@ const recipes = [
     name: "Cinnamon Dolce Latte",
     time: "15 min",
     serving: "1",
+    ingredNo: "10",
     ingredients: [
       "2-4 Tablespoons cinnamon syrup",
       "1 cup strong brewed coffee",
@@ -111,7 +112,7 @@ const recipes = [
   },
 
   {
-    id: "RecipeC",
+    id: "RecipeD",
     name: "Caramel Macchiato",
     time: "10 min",
     serving: "1",
