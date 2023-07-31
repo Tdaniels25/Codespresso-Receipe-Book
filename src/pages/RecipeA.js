@@ -3,7 +3,7 @@ import "../RecipePage.css";
 import RecipeTitle from "../components/RecipeTitle";
 import latte from "./img/latte2.jpg";
 import RecipePrep from "../components/RecipePrep";
-
+import { Link } from "react-router-dom";
 import recipes from "../components/DetailedRecipe";
 import RecipeIngredients from "../components/RecipeIngredients";
 import RecipeMethod from "../components/RecipeMethod";
@@ -41,8 +41,14 @@ const RecipeA = () => {
               <RecipeMethod recipe={recipeA} />
             </div>
           </div>
-          <button>Home</button>
-          <button>Back to Recipes</button>
+          <div className="recipePage-btns">
+            <Link to="./LandingPage" className="recipePage-homeBtn">
+              Home
+            </Link>
+            <Link to="../List" className="recipePage-recipeBtn">
+              Back to Recipes
+            </Link>
+          </div>
         </div>
       </div>
     </div>

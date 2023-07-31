@@ -7,7 +7,7 @@
 .content-container {
   padding: 3%;
   width: 1200px;
-  height: 1300px;
+  height: 1400px;
   box-shadow: 0px 0px 7px #86643d;
 }
 
@@ -34,12 +34,14 @@
 #prep-icons {
   text-align: center;
   padding: 2% 2% 1% 2%;
+  color: #675046;
 }
 
 #prep-text {
   text-align: center;
   padding: 2% 2% 2% 2%;
   font-size: 80%;
+  font-weight: 600;
 }
 
 .ingred-heading3 {
@@ -73,7 +75,7 @@
 
 .recipe-method {
   margin-top: 30px;
-  padding: 4% 4% 2% 4%;
+  padding: 4% 4% 4% 4%;
   background-color: #efdfda;
   box-shadow: 0px 0px 7px #a07d54;
 }
@@ -87,6 +89,41 @@
 }
 
 .tips-list {
-  list-style: none;
+  list-style: disc;
   font-size: 90%;
+}
+
+.syrup-heading4 {
+  padding: 3% 0 0 0;
+  text-align: center;
+}
+
+.syrup-list {
+  list-style: none;
+}
+
+.recipePage-btns {
+  display: flex;
+  justify-content: center;
+  padding: 3% 0 0 0;
+}
+
+.recipePage-homeBtn,
+.recipePage-recipeBtn {
+  margin: 8px;
+  padding: 1% 2% 1% 2%;
+  border-radius: 30px;
+  border: none;
+  background-color: #dab790;
+  box-shadow: 2px 2px 5px #86643d;
+  font-weight: 600;
+  color: #000;
+}
+
+.recipePage-homeBtn:hover,
+.recipePage-recipeBtn:hover {
+  background-color: #86643d;
+  box-shadow: 2px 2px 5px #ffffff;
+  color: #fff;
+  text-decoration: none;
 }
