@@ -11,8 +11,8 @@ const RecipeMethod = ({ recipe }) => {
           <li key={index}>{item}</li>
         ))}
       </ul>
-      <h4 className="method-heading4">Syrup Method</h4>
-      <ul className="method-list">
+      <h4 className="syrup-heading4">Syrup Method</h4>
+      <ul className="syrup-list">
         {syrupMethod.map((item, index) => (
           <li key={index}>{item}</li>
         ))}

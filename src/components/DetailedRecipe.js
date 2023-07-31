@@ -103,7 +103,7 @@ const recipes = [
       "3. Garnish with with whipped cream (matcha powder optional). Enjoy!",
     ],
     tips: [
-      "To make vanilla syrup, see our Cinnamon Dolce Latte Recipe.",
+      "To make vanilla syrup, see our Mocha Frappuccino recipe.",
       "Store your excess frappuccino syrup in a mason jar in the fridge and use when required.",
       "Don’t add ice first into the blender since you won’t get an efficient blend.",
       "Starbucks uses a pre-sweetened matcha but if you can't find one that is as good, get unsweetened matcha and added sweetener separately.",
@@ -123,14 +123,13 @@ const recipes = [
       "2 teaspoons caramel sauce",
       "caramel sauce to garnish",
     ],
-    syrup: [
-      "1/2 cup water",
-      "3/4 cup sugar",
-      "1 teaspoon xantham gum powder",
-      "1 teaspoon vanilla extract",
-    ],
+    syrup: ["1 cup sugar", "1 cup water", "1 teaspoon vanilla extract"],
     equipment: ["electric milk frother", "pan", "measuring spoons and cups"],
-
+    syrupMethod: [
+      "1. Add 1 cup of sugar and 1 cup of water to a saucepan. Heat to boiling.",
+      "2. Stir until sugar dissolves. Let the sugar syrup cool completely.",
+      "3. Add 1 tablespoon vanilla extract to the cooled sugar syrup.",
+    ],
     mainMethod: [
       "1. Simmer milk on the stovetop (Do not boil). Froth milk using an electric milk frother.",
       "2. Put vanilla syrup and frothed milk into a cup first. Then Add espresso shots. Do not stir.",
@@ -138,7 +137,7 @@ const recipes = [
     ],
     tips: [
       "If you don’t have an espresso machine, you can use instant coffee. Combine 1 tablespoon of instant coffee and 1/4 cup hot water to replace the 2 shots of espresso in the recipe.",
-      "To make vanilla syrup, see our Cinnamon Dolce Latte Recipe.",
+      "To make vanilla syrup, see our Mocha Frappuccino recipe.",
       "Use store-bought caramel sauce. It can be quite tricky to make at home.",
     ],
   },
