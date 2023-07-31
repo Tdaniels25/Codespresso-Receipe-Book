@@ -16,7 +16,7 @@ import shop3 from "./imgs/shop3.png"
         <div className="content-container">
     <div className="heading">
       <h2 className="receipe-heading">Curate Your Coffee List</h2>
-      <span>Bring Starbucks to the comfort of your home, with a twist</span>
+      
     </div>
     
     <div className="receipeContainer">

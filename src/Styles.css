@@ -75,7 +75,7 @@ header ul li a:hover{
 
 .content .imgBox .hero-image img{
     width: 100px;
-    
+
 }
 
 .content .textBox {
@@ -310,7 +310,6 @@ button.coffee:hover{
     display:flex;
     flex-wrap: wrap;
     gap: 4rem;
-    margin-top: 1rem;
 
 }
 .receipeContainer .box{
@@ -327,9 +326,9 @@ button.coffee:hover{
     padding-bottom: 40px;
 }
 .receipeContainer .box .box-image{
-        width: 150px;
-        height: 150px;
-        margin-top: -60px;
+        width: 120px;
+        height: 120px;
+        margin-top: -40px;
 }
 
 .receipeContainer .box .box-image img{
@@ -358,6 +357,7 @@ button.coffee:hover{
     margin-top: -30px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
  span{
