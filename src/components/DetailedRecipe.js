@@ -44,6 +44,7 @@ const recipes = [
     name: "Mocha Frappuccino",
     time: "8 min",
     serving: "1",
+    ingredNo: "9",
     ingredients: [
       "2 (1/3 cup) shots expresso, cooled",
       "1 cup ice cubes",
@@ -77,6 +78,7 @@ const recipes = [
     name: "Matcha Frappuccino",
     time: "12 min",
     serving: "1",
+    ingredNo: "10",
     ingredients: [
       "2/3 cups whole milk",
       "2 tablespoons vanilla syrup",
@@ -116,6 +118,7 @@ const recipes = [
     name: "Caramel Macchiato",
     time: "10 min",
     serving: "1",
+    ingredNo: "8",
     ingredients: [
       "1 ½ cups 2% milk",
       "2 tablespoons vanilla syrup",

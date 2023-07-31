@@ -2,11 +2,13 @@ import React from "react";
 import "../RecipePage.css";
 import RecipeTitle from "../components/RecipeTitle";
 import latte from "./img/latte2.jpg";
+import latteStep from "./img/latte-step.jpg";
 import RecipePrep from "../components/RecipePrep";
 import { Link } from "react-router-dom";
 import recipes from "../components/DetailedRecipe";
 import RecipeIngredients from "../components/RecipeIngredients";
 import RecipeMethod from "../components/RecipeMethod";
+import RecipeEquipment from "../components/RecipeEquipment";
 
 const RecipeA = () => {
   const recipeA = recipes.find((recipe) => recipe.id === "RecipeA");
@@ -21,6 +23,9 @@ const RecipeA = () => {
           <div className="row">
             <div className="col-5">
               <img src={latte} alt="" id="main-image" />
+              <h4 className="recipe-guide">Recipe Guide</h4>
+              <img src={latteStep} alt="recipe directions" id="recipe-steps" />
+              <RecipeEquipment recipe={recipeA} />
             </div>
             <div className="col-7" id="recipe-content">
               <RecipeTitle recipe={recipeA} />
