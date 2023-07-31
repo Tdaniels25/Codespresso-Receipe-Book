@@ -18,7 +18,7 @@ return(
     </Link>
        </li>
         <li>
-        <Link to ="List">
+        <Link to ="/List">
         <a>Receipe List</a>
         </Link>
         </li>
