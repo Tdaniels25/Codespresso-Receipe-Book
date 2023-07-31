@@ -29,9 +29,13 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header.logo{
+header .codeLogo{
     position: relative;
-    max-width: 80px;
+    width:150px;
+    height: 100px;
+    margin-top: 8px;
+   
+   
 }
 header ul{
     position: relative;
@@ -56,6 +60,19 @@ header ul li a{
     justify-content: space-between;
     align-items: center;
 }
+.content .imgBox{
+    max-width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-right: -10px;
+}
+
+.content .imgBox .hero-image img{
+    width: 100px;
+}
+
+
 
 .content .textBox{
     position: relative;
@@ -84,8 +101,8 @@ header ul li a{
 }
 
  img{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
@@ -145,7 +162,7 @@ header ul li a{
     width: 100%;
     height: 100%;
     background-color: #ddab70;
-    clip-path: circle(500px at right);
+    clip-path: circle(260px at right);
 }
 
 /*About Us Styling*/
@@ -222,4 +239,76 @@ Footer Styling
     color: #ddab70;
     border-radius: 20px;
     font-weight: 200;
+  }
+
+  /*
+  Styling For Receipe List*/
+  .receipeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+  
+  }
+  .receipeContainer .box{
+    flex: 1 1 10rem;
+    background-color: #f7f3f3;
+    padding:20px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    margin-right: 35px;
+    border: 2px solid #f7f3f3;
+    box-shadow: 5px 5px 10px #000;
+
+  }
+  .receipeContainer .box .box-image{
+    width: 150px;
+    height:150px;
+    margin-top: -100px;
+
+  }
+  .receipeContainer .box .box-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+
+  .receipeContainer .box h3{
+    color: #292828;
+    font-size: 1.2rem;
+  }
+
+  .box .btn{
+    border:2px solid #000;
+    border-radius: 15px;
+    background-color: #000;
+    color: #f7f3f3;
+    padding: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+
+  }
+
+  .receipe-heading{
+    display:inline-block;
+  }
+
+  .receipe-list{
+    background-color: #ddab70;
+  }
+
+  .curate-coffee{
+    text-align: center;
+  }
+  .receipe-heading{
+    font-size: 2rem;
+    font-weight: 400;
+
   }

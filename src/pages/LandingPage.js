@@ -1,10 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "./imgs/codespresso-logo.jpeg";
+import NavBar from "../components/NavBar";
 import thumb1 from "./imgs/thumb1.jpeg";
 import thumb2 from "./imgs/thumb2.jpg";
 import thumb3 from "./imgs/thumb3.jpg";
-import HeroImage from "./imgs/header-img2.jpg";
+import drinks from "./imgs/drinks.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -17,40 +15,10 @@ function LandingPage() {
   return (
     <section>
       <div>
-        {/*<div>
-          <NavBar />,
-          <MainHero />,
-          <AboutUs />,
-          <Footer />,
-  <RecipeList />
-  </div>*/}
-        <Link to="/RecipeA">
-          <p>RecipeA</p>
-        </Link>
+       <NavBar/>
+        
       </div>
       <div className="circle"></div>
-      <header>
-        <a href="#" className="logo">
-          <img src={Logo} alt="Codespresso Logo" />
-        </a>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Receipe List</a>
-          </li>
-          <li>
-            <a href="#">Deatiled Receipe</a>
-          </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
-      </header>
       <div className="content">
         <div className="textBox">
           <h1>
@@ -69,7 +37,7 @@ function LandingPage() {
           <button className="receipe">Curate Your Coffee</button>
         </div>
         <div className="imgBox">
-          <img src={HeroImage} alt="Header Img" className="hero-image"></img>
+          <img src={drinks} alt="Header Img" className="hero-image"/>
         </div>
       </div>
       <ul className="thumb">
