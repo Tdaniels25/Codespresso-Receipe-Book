@@ -18,9 +18,12 @@ const RecipeMethod = ({ recipe }) => {
         ))}
       </ul>
       <div className="tips">
-        <p>
-          Tips: <span>{tips}</span>
-        </p>
+        <h6 className="tips-heading6">Tips: </h6>
+        <ul className="tips-list">
+          {tips.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
