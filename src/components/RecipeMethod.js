@@ -5,14 +5,14 @@ const RecipeMethod = ({ recipe }) => {
 
   return (
     <div className="recipe-method">
-      <h4>Method</h4>
-      <ul>
+      <h4 className="method-heading4">Method</h4>
+      <ul className="method-list">
         {mainMethod.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ul>
-      <h4>Syrup Method</h4>
-      <ul>
+      <h4 className="method-heading4">Syrup Method</h4>
+      <ul className="method-list">
         {syrupMethod.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
