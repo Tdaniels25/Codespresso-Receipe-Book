@@ -74,7 +74,9 @@ const RecipeList = () => {
       <div className="content-container">
         <div className="heading">
           <h2 className="receipe-heading">Curate Your Coffee List</h2>
-          <button onClick={handleAddRecipe} className ="btn">Add New Recipe</button>
+          <button onClick={handleAddRecipe} className="button">
+            Add New Recipe
+          </button>
         </div>
         {recipes.map((recipe) => (
           <div className="receipeContainer" key={recipe.id}>
@@ -84,10 +86,14 @@ const RecipeList = () => {
               </div>
               <h3>{recipe.title}</h3>
               <p>{recipe.description}</p>
-              <Link to={recipe.link}>
-                <p className="btn">View Recipe</p>
-              </Link>
-              <button onClick={() => removeRecipe(recipe.id)} className="btn">Remove Recipe</button>
+              <div className="btn-group">
+                <Link to={recipe.link} className="btn">
+                  View Recipe
+                </Link>
+                <button onClick={() => removeRecipe(recipe.id)} className="remove-button">
+                  Remove Recipe
+                </button>
+              </div>
             </div>
           </div>
         ))}
