@@ -5,7 +5,7 @@ const RecipeTitle = ({ recipe }) => {
 
   return (
     <div className="recipe-title">
-      <h1>{name}</h1>
+      <h1 className="rTitle-heading">{name}</h1>
     </div>
   );
 };
