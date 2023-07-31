@@ -1,11 +1,13 @@
-function RecipeTitle() {
+import React from "react";
+
+const RecipeTitle = ({ recipe }) => {
+  const { name } = recipe;
+
   return (
-    <div>
-      <h1>Cappuccino</h1>
-      <h4>Make a cappuccino like a barista!</h4>
-      <h6>Methods</h6>
+    <div className="recipe-title">
+      <h1 className="rTitle-heading">{name}</h1>
     </div>
   );
-}
+};
 
 export default RecipeTitle;
