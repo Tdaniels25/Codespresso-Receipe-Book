@@ -18,6 +18,11 @@ So, welcome to our virtual coffee haven where we promise to bring you the best o
 
 We hope that our shared passion for both coding and coffee brings a smile to your face as you explore our recipe book. Remember, whether you're a seasoned developer or just starting your coding journey, you're always welcome at our virtual coffee corner. So grab your favorite mug, brew your favorite drink, and let's code and caffeinate together! {" "}
           </p>
+          <div className="about-button">
+        <Link to="/List">
+        <button className="coffee">Coffee & Code</button>
+        </Link>
+      </div>
         </div>
       </div>
       <div className="about-image">
@@ -27,11 +32,7 @@ We hope that our shared passion for both coding and coffee brings a smile to you
           className="about-us-image"
         ></img>
       </div>
-      <div className="about-button">
-        <Link to="/List">
-        <button className="coffee">Coffee & Code</button>
-        </Link>
-      </div>
+    
     </section>
   );
 }

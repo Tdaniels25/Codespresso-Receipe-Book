@@ -75,7 +75,7 @@ header ul li a:hover{
 
 .content .imgBox .hero-image img{
     width: 100px;
-    margin-left: 150px;
+    
 }
 
 .content .textBox {
@@ -103,7 +103,10 @@ header ul li a:hover{
   border-radius: 40px;
   font-weight: 500;
 }
-
+.receipe:hover{
+  background-color: #fff;
+  color: #ddab70;
+}
  img{
     width: 100%;
     height: 100%;
@@ -180,9 +183,8 @@ section.about {
   align-items: center;
   background-color: #ddab70;
 }
-
 .about-content {
-  float: right;
+  float: left;
   width: 55%;
 }
 
@@ -195,21 +197,108 @@ button.coffee {
   color: #ddab70;
   border-radius: 20px;
   font-weight: 200;
+  text-decoration: none;
+
+}
+
+button.coffee:hover{
+  text-decoration: none;
+  background-color: #ddab70;
+  color: #fff;
+  
 }
 
 .about-image {
   flex: 1;
   margin-right: 50px;
-  width: 50%;
+  width: 80%;
 }
 
 .about-image img {
   width: 100%;
   height: auto;
+  min-height: 70vh;
+  width: 400px;
+  margin-top: -50px;
+  height: 400px;
+  margin-left: 60px;
 }
 
+/*Adding responsive to the about page */
+/* media query for screens with a maximum width of 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+  section.about {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
 
+  .about-content {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
 
+  .about-image {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+/*  media query for screens with a width between 769px and 1023px  */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .about-content {
+    width: 60%;
+  }
+
+  .about-image {
+    width: 40%;
+    margin-right: 0;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+/* media query for screens with a minimum width of 1024px  */
+@media (min-width: 1024px) {
+  section.about {
+    padding: 100px;
+  }
+
+  .about-content {
+    width: 55%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .about-image {
+    width: 40%;
+    margin-right: 50px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    min-height: 70vh;
+    width: 400px;
+    margin-top: -50px;
+    height: 400px;
+    margin-left: 60px;
+  }
+}
 
   /* Styling for Receipe List*/
 .receipeList{
@@ -275,3 +364,4 @@ button.coffee {
     text-align:center;
     color:#f7f3f3;
 }
+
