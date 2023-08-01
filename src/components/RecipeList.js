@@ -6,6 +6,7 @@ import cinnamon from "./imgs/cinnamon.JPG";
 import mocha from "./imgs/mocha.JPG";
 import shop2 from "./imgs/shop2.png";
 import shop3 from "./imgs/shop3.png";
+import choc from "./imgs/choc-coffee.jpg"
 
 
 const RecipeList = () => {
@@ -215,7 +216,7 @@ const RecipeList = () => {
       description: 'Experience the decadent Cookies n Cream Frap - a delightful fusion of rich coffee, creamy milk, and crushed chocolate cookies.',
       ingredients: ['Ingredient 1', 'Ingredient 2'],
       preparationSteps: ['Step 1', 'Step 2'],
-      image: '', // A image URL for the new recipe here
+      image: choc, // A image URL for the new recipe here
       link: '', // The link for the new recipe here
     };
 
