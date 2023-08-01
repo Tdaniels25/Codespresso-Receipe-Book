@@ -88,7 +88,7 @@ function Marketing() {
             </div>
             <button className="review-submit">Submit</button>
             <div className="review-btns">
-              <Link to="./LandingPage" className="recipePage-homeBtn">
+              <Link to="/" className="recipePage-homeBtn">
                 Home
               </Link>
               <Link to="../List" className="review-recipeBtn">

@@ -344,12 +344,15 @@ button.coffee:hover{
     margin-left: 25px;
     
 }
-.box .btn{
-    border:2px solid #000;
-    color: #fff;
-    background-color: #000;
-    border-radius: 12px;
-    border-right: 5px;
+ .box .btn{
+  margin: 8px;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ddab70;
+  box-shadow: 2px 2px 5px #fff;
+  font-weight: 600;
+  color: #fff;
 }
 
 .box .btn:hover{
@@ -372,16 +375,26 @@ button.coffee:hover{
 
 /*Add and remove button in Receipe List*/
 
-.remove-button,
-  .button              {
-    border:2px solid #000;
-    color: #fff;
-    background-color: #000;
-    border-radius: 12px;
-    padding: 10px;
-    margin-left: 30px;
+.remove-button              {
+  margin: 8px;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ddab70;
+  box-shadow: 2px 2px 5px #fff;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 30px;
 }
-
+.button{
+  margin: 8px;
+  padding: 1% 2% 1% 2%;
+  border-radius: 30px;
+  border: none;
+  background-color: #dab790;
+  font-weight: 600;
+  color: #000;
+}
 .remove-button:hover{
   background-color: #fff;
   color: #000;
@@ -390,4 +403,24 @@ button.coffee:hover{
 .button:hover{
   background-color: #fff;
   color: #000;
+}
+
+.recipeList-homeBtn{
+  margin: 8px;
+  padding: 1% 2% 1% 2%;
+  border-radius: 30px;
+  border: none;
+  background-color: #dab790;
+  box-shadow: 2px 2px 5px #86643d;
+  font-weight: 600;
+  color: #000;
+  margin-top: 12px;
+}
+
+.recipeList-homeBtn:hover{
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #ffffff;
+  color: #000;
+  text-decoration: none;
+  border:none;
 }

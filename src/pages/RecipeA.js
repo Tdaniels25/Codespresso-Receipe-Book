@@ -47,7 +47,7 @@ const RecipeA = () => {
             </div>
           </div>
           <div className="recipePage-btns">
-            <Link to="./LandingPage" className="recipePage-homeBtn">
+            <Link to="/" className="recipePage-homeBtn">
               Home
             </Link>
             <Link to="../List" className="recipePage-recipeBtn">

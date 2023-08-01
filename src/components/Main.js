@@ -23,7 +23,7 @@ function LandingPage() {
       <div className="content">
         <div className="textBox">
           <h1>
-            Homebrewed Starbucks: <span>Your Favorite Receipes</span>
+            Homebrewed Starbucks: <span>Your Favourite Recipes</span>
           </h1>
           <h2>Coffee Creations for Coders</h2>
           <p>

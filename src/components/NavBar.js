@@ -22,7 +22,7 @@ return(
        </li>
         <li>
         <Link to ="/List">
-        <p>Receipe List</p>
+        <p>Recipe List</p>
         </Link>
         </li>
     
@@ -31,6 +31,11 @@ return(
         <p>Contact Us</p>
         </Link>
       </li>
+      <li>
+      <Link to="/Marketing">
+      <p>Gallery</p>
+    </Link>
+       </li>
     </ul>
   </header>
 )
