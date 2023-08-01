@@ -230,9 +230,7 @@ const RecipeList = () => {
           <h2 className="receipe-heading">Curate Your Coffee List</h2>
          
         </div>
-        <Link to="./LandingPage" className="recipePage-homeBtn">
-              Home
-            </Link>
+      
         {recipes.map((recipe) => (
           <div className="receipeContainer" key={recipe.id}>
             <div className="box">
