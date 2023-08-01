@@ -9,6 +9,7 @@ import RecipeC from "./pages/RecipeC";
 import RecipeD from "./pages/RecipeD";
 import List from "./components/RecipeList";
 import Footer from "./components/Footer";
+import Marketing from "./components/Marketing";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path="/list" element={<List />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/nav" element={<NavBar />} />
-
+        <Route path="/Marketing" element={<Marketing />} />
       </Routes>
     </div>
   );

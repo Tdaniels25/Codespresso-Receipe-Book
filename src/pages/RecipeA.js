@@ -53,6 +53,9 @@ const RecipeA = () => {
             <Link to="../List" className="recipePage-recipeBtn">
               Back to Recipes
             </Link>
+            <Link to="../Marketing" className="marketing-btn">
+              Marketing
+            </Link>
           </div>
         </div>
       </div>
