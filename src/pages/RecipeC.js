@@ -34,7 +34,7 @@ const RecipeC = () => {
                 <i class="fa-solid fa-star fa-xl"></i>
                 <i class="fa-solid fa-star fa-xl"></i>
                 <i class="fa-solid fa-star fa-xl"></i>
-                <i class="fa-solid fa-star-half-stroke fa-xl"></i>
+                <i class="fa-regular fa-star fa-xl"></i>
               </div>
               <p className="recipe-description">
                 Experience the refreshing allure of Matcha Frappuccino, a
