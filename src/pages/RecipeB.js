@@ -34,7 +34,7 @@ const RecipeB = () => {
                 <i class="fa-solid fa-star fa-xl"></i>
                 <i class="fa-solid fa-star fa-xl"></i>
                 <i class="fa-solid fa-star fa-xl"></i>
-                <i class="fa-solid fa-star-half-stroke fa-xl"></i>
+                <i class="fa-solid fa-star fa-xl"></i>
               </div>
               <p className="recipe-description">
                 Indulge in a delightful Mocha Frappuccino, a blissful fusion of
