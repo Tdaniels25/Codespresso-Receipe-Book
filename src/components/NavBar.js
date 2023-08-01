@@ -11,7 +11,9 @@ return(
 
     <ul>
       <li>
+        <Link to ="/LandingPage">
         <p>Home</p>
+        </Link>
       </li>
       <li>
       <Link to="/AboutUs">
