@@ -37,9 +37,9 @@ const RecipeC = () => {
                 <i class="fa-solid fa-star-half-stroke fa-xl"></i>
               </div>
               <p className="recipe-description">
-                Savor the delightful fusion of cinnamon-infused syrup and bold
-                espresso—a cozy caffeine boost that's a must-try for coffee
-                enthusiasts.
+                Experience the refreshing allure of Matcha Frappuccino, a
+                vibrant blend of green tea goodness. A soothing and invigorating
+                delight!
               </p>
               <RecipePrep recipe={recipeC} />
               <RecipeIngredients recipe={recipeC} />

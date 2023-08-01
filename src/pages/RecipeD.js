@@ -41,9 +41,9 @@ const RecipeD = () => {
                 <i class="fa-solid fa-star-half-stroke fa-xl"></i>
               </div>
               <p className="recipe-description">
-                Savor the delightful fusion of cinnamon-infused syrup and bold
-                espresso—a cozy caffeine boost that's a must-try for coffee
-                enthusiasts.
+                Experience the indulgent Caramel Macchiato – a luscious fusion
+                of espresso, velvety milk, and caramel drizzle. Pure bliss in
+                every sip!
               </p>
               <RecipePrep recipe={recipeD} />
               <RecipeIngredients recipe={recipeD} />
