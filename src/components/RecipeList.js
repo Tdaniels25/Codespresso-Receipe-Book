@@ -7,6 +7,7 @@ import mocha from "./imgs/mocha.JPG";
 import shop2 from "./imgs/shop2.png";
 import shop3 from "./imgs/shop3.png";
 
+
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([
     {
@@ -21,7 +22,7 @@ const RecipeList = () => {
     {
       id: 2,
       title: 'Mocha Frappucino',
-      description: 'A soothing coffee blend that helps you relax while sipping through complex syntax and coding structures',
+      description: 'Indulge in a delightful Mocha Frappuccino, a blissful fusion of rich chocolate and smooth coffee. The perfect icy treat to savor',
       ingredients: ['Coffee', 'Milk', 'Chocolate syrup', 'Whipped cream'],
       preparationSteps: ['Brew a strong cup of coffee.', 'Add milk and chocolate syrup to a blender.', 'Blend until smooth.', 'Pour into a glass and top with whipped cream.'],
       image: mocha,
@@ -30,7 +31,7 @@ const RecipeList = () => {
     {
       id: 3,
       title: 'Matcha Frappucino',
-      description: 'A perfectly proportioned latte, ideal for those quick coding breaks between tasks',
+      description: 'Experience the refreshing allure of Matcha Frappuccino, a vibrant blend of green tea goodness. A soothing and invigorating delight',
       ingredients: ['Matcha powder', 'Milk', 'Honey', 'Ice'],
       preparationSteps: ['Mix matcha powder with warm water to make a paste.', 'Add milk, honey, and ice to a blender.', 'Blend until smooth.', 'Pour into a glass and add the matcha paste on top.'],
       image: shop3,
@@ -39,7 +40,7 @@ const RecipeList = () => {
     {
       id: 4,
       title: 'Caramel Macchiato',
-      description: 'A delightful espresso shot that overflows with flavor, just like your code overflows with innovation',
+      description: 'Experience the indulgent Caramel Macchiato – a luscious fusion of espresso, velvety milk, and caramel drizzle. Pure bliss in every sip!',
       ingredients: ['Espresso', 'Milk', 'Vanilla syrup', 'Caramel sauce'],
       preparationSteps: ['Brew a shot of espresso.', 'Steam and froth the milk.', 'Add vanilla syrup to the milk.', 'Pour the milk over the espresso.', 'Drizzle caramel sauce on top.'],
       image: shop2,
@@ -58,8 +59,8 @@ const RecipeList = () => {
   const handleAddRecipe = () => {
     const newRecipe = {
       id: recipes.length + 1,
-      title: 'New Recipe',
-      description: 'Description for the new recipe.',
+      title: 'Cookies n Cream Frapp',
+      description: 'Experience the decadent Cookies n Cream Frap - a delightful fusion of rich coffee, creamy milk, and crushed chocolate cookies.',
       ingredients: ['Ingredient 1', 'Ingredient 2'],
       preparationSteps: ['Step 1', 'Step 2'],
       image: '', // A image URL for the new recipe here
@@ -78,6 +79,9 @@ const RecipeList = () => {
             Add New Recipe
           </button>
         </div>
+        <Link to="./LandingPage" className="recipePage-homeBtn">
+              Home
+            </Link>
         {recipes.map((recipe) => (
           <div className="receipeContainer" key={recipe.id}>
             <div className="box">

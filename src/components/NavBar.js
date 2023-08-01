@@ -5,31 +5,28 @@ import Logo from "./imgs/logo.jpeg";
 function NavBar(){
 return(
     <header>
-    <a >
+    <p>
       <img src={Logo} alt="Codespresso Logo"  className="codeLogo"/>
-    </a>
+    </p>
+
     <ul>
       <li>
-        <a href="#">Home</a>
+        <p>Home</p>
       </li>
       <li>
       <Link to="/AboutUs">
-      <a>About Us</a>
+      <p>About Us</p>
     </Link>
        </li>
         <li>
         <Link to ="/List">
-        <a>Receipe List</a>
+        <p>Receipe List</p>
         </Link>
         </li>
-      <li>
-        <Link to ="">
-        <a>Deatiled Receipe</a>
-        </Link>
-      </li>
+    
       <li>
         <Link to ="/Footer">
-        <a>Contact Us</a>
+        <p>Contact Us</p>
         </Link>
       </li>
     </ul>

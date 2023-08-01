@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faTwitter, faFacebook, faPinterest } from '@fortawesome/free-brands-svg-icons';
-import logo from "./imgs/codespresso-logo.jpeg";
 import "../Footer.css";
 
 function Footer(){

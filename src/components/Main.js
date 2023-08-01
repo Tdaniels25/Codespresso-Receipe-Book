@@ -6,7 +6,6 @@ import thumb2 from "./imgs/thumb2.jpg";
 import thumb3 from "./imgs/thumb3.jpg";
 import drinks from "./imgs/drinks.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faTwitter,
@@ -15,7 +14,7 @@ import {
 
 function LandingPage() {
   return (
-    <section>
+    <section class="landingBackground">
       <div>
        <NavBar/>
         
@@ -56,35 +55,35 @@ function LandingPage() {
       </ul>
       <ul className="sci">
         <li>
-          <a>
+          <p>
             <FontAwesomeIcon
               icon={faInstagram}
               style={{ color: "#fff" }}
               size="xl"
             />
-          </a>
+          </p>
         </li>
 
         <li>
-          <a>
+          <p>
             {" "}
             <FontAwesomeIcon
               icon={faTwitter}
               style={{ color: "#fff" }}
               size="xl"
             />
-          </a>
+          </p>
         </li>
 
         <li>
-          <a>
+          <p>
             {" "}
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ color: "#fff" }}
               size="xl"
             />
-          </a>
+          </p>
         </li>
       </ul>
     </section>
